@@ -1,0 +1,16 @@
+Case: GameState.settingUp
+Step 1. Choose number of Players (from ui button)
+Step 2. Adjust Players
+- Spawning correct number of players.
+- Choosing the turn player
+
+Case: GameState.paused
+Step 1. Sieze all movement.
+Step 2. Input(later impliment clickable pictures) your card.
+
+Case: GameState.playing
+Step 2. Move turn player (Set steps)+ card value.
+Step 3. After player move choose next turn player
+Step 4. Go to GameState.paused
+
+ 
